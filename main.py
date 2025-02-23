@@ -4,6 +4,10 @@ import numpy as np
 import os
 
 
+# Set page configuration
+st.set_page_config(page_title="LeafLens 🌿🔍",
+                   layout="wide",
+                   page_icon="🌿🔍")
 
 #Tensorflow Model Prediction
 def model_prediction(test_image):
